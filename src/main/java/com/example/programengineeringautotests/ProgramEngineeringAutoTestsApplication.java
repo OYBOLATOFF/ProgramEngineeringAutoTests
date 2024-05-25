@@ -8,6 +8,7 @@ public class ProgramEngineeringAutoTestsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ProgramEngineeringAutoTestsApplication.class, args);
+
     }
 
 }
