@@ -41,7 +41,7 @@ class ProgramEngineeringAutoTestsApplicationTests {
     @DisplayName("Алгоритм бинарного поиска выявляет неотсортированность списка")
     @SneakyThrows
     void binarySearchDetectedUnsorteredArray() {
-        Integer[] numbers = {1, 2, 3, 4, 5};
+        Integer[] numbers = {1, 3, 2, 4, 5};
         Assertions.assertThrows(ArrayNotSortedException.class, () -> {
             Algorithm.binarySearch(numbers, 3);
         });
