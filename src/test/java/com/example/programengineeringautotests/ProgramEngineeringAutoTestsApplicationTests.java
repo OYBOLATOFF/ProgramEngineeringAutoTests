@@ -11,7 +11,7 @@ class ProgramEngineeringAutoTestsApplicationTests {
     void contextLoads() {
         String firstName = "Ramazan";
         String secondName = "Ramazan";
-        Assertions.assertTrue(firstName.equals(secondName));
+        Assertions.assertTrue(!firstName.equals(secondName));
     }
 
 }
